@@ -1,6 +1,7 @@
 aiogram==3.1.1
 asyncio==3.4.3
 attrs==23.1.0
+ipython==8.17.2
 openai==0.28.1
 pyaml==23.9.7
 python-dotenv==1.0.0
