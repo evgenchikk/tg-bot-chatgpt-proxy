@@ -1,0 +1,10 @@
+name: chatgpt-proxy
+
+services:
+  bot:
+    build: .
+    image: tg-bot-chatgpt-proxy:v1.0.0
+    env_file: .env
+    volumes:
+      - ./config:/config
+    restart: unless-stopped
