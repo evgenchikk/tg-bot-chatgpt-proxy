@@ -8,7 +8,7 @@ from .repo import Repository
 
 
 log = logging.getLogger('repository')
-DB_PATH = '../db.sqlite'
+DB_PATH = './db.sqlite'
 
 class SQLite(Repository):
     def __init__(self) -> None:
